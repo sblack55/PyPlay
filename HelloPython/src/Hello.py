@@ -9,10 +9,10 @@ class World:
     name = "World"
     
     def Hello(self):
-        return("Hello Python " + self.name)
+        return("Hello Git " + self.name)
         
     def Goodbye(self):
-        return("Goodbye Python " + self.name)
+        return("Goodbye Git " + self.name)
         
 if __name__ == '__main__':
     print("hello, Python!")
