@@ -27,11 +27,11 @@ if __name__ == '__main__':
     j = {'file':'recordingfile',"title":"NCIS","subtitle":"Episode 1"}
     print(json.dumps(j))
 
-    with open('hellofile.txt', 'w') as f:
+    with open('output/hellofile.txt', 'w') as f:
         f.write(x.Hello())
         f.write('\n')
         f.write(x.Goodbye())
-    with open('hellofile.txt', 'r') as f:
+    with open('output/hellofile.txt', 'r') as f:
         while True:
             s = f.readline()
             if s == '':
